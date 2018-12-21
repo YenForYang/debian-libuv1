@@ -1,0 +1,4 @@
+libuv1-dbgsym_1.24.1-1_amd64.deb debug optional automatic=yes
+libuv1-dev_1.24.1-1_amd64.deb libdevel optional
+libuv1_1.24.1-1_amd64.buildinfo libs optional
+libuv1_1.24.1-1_amd64.deb libs optional

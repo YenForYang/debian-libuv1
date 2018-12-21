@@ -1,0 +1,15 @@
+Package: libuv1-dbgsym
+Source: libuv1
+Version: 1.24.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Dominique Dumont <dod@debian.org>
+Installed-Size: 319
+Depends: libuv1 (= 1.24.1-1)
+Breaks: libuv1-dbg (<< 1.11.0-1~)
+Replaces: libuv1-dbg (<< 1.11.0-1~)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libuv1
+Build-Ids: a3d578e63dbdaae477bfcc8ef0eea2cb34571c17

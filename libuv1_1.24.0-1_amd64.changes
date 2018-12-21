@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Fri, 30 Nov 2018 15:58:40 +0100
+Source: libuv1
+Binary: libuv1-dev libuv1
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.24.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dominique Dumont <dod@debian.org>
+Changed-By: Dominique Dumont <dod@debian.org>
+Description:
+ libuv1     - asynchronous event notification library - runtime library
+ libuv1-dev - asynchronous event notification library - development files
+Changes:
+ libuv1 (1.24.0-1) unstable; urgency=medium
+ .
+   * new upstream version
+   * fix git describe instruction in README.source
+   * refreshed copyright (cme update dpkg)
+   * removed configure.ac.diff, path_man and hurd-port patches
+     (applied upstream)
+   * refreshed path_max_zero_st_size patch
+   * mark internal symbols (uv__*) as optional in symbols file
+Checksums-Sha1:
+ d3a8cb78fa0fe3070365c1250c189c80b592c135 280812 libuv1-dbgsym_1.24.0-1_amd64.deb
+ ce9fc358ad22574f20a3d56918ccc7dfdb95f0f1 1226296 libuv1-dev_1.24.0-1_amd64.deb
+ fab32b23240fba90c2455c26e9fd49b3092193b0 5854 libuv1_1.24.0-1_amd64.buildinfo
+ 1228a626d18f66b1edfd1e8e3baa53333f2e01a0 181564 libuv1_1.24.0-1_amd64.deb
+Checksums-Sha256:
+ 2ad18826c3d2a3a5d5d10f532ee0b25aa9e9398b57d4f8a437a416fdbddac97e 280812 libuv1-dbgsym_1.24.0-1_amd64.deb
+ 88d396322d3fec7e9be9706def95a5299b65dfa44d84a08af4ec48380969a6e6 1226296 libuv1-dev_1.24.0-1_amd64.deb
+ e18c833eadf9b368b79cb36a083c438d75e63335c486de119cc10e0f478fbe82 5854 libuv1_1.24.0-1_amd64.buildinfo
+ 187fe624aa3a5b515eb68df2e57c6d437f13f956a6f5158a30867c6a587d891e 181564 libuv1_1.24.0-1_amd64.deb
+Files:
+ f4bfe5bcd8f98d9dd8066f3628ce0651 280812 debug optional libuv1-dbgsym_1.24.0-1_amd64.deb
+ 39a10edec2fd62d81938c5dae3073645 1226296 libdevel optional libuv1-dev_1.24.0-1_amd64.deb
+ 39c54075d0d69b14152e80062d818db7 5854 libs optional libuv1_1.24.0-1_amd64.buildinfo
+ fe5af3e3717d09f378237491f5709c14 181564 libs optional libuv1_1.24.0-1_amd64.deb

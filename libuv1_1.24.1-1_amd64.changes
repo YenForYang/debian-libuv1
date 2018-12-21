@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 21 Dec 2018 12:33:37 +0100
+Source: libuv1
+Binary: libuv1-dev libuv1
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.24.1-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Dominique Dumont <dod@debian.org>
+Changed-By: Richard Yang <richard@yenforyang.com>
+Description:
+ libuv1     - asynchronous event notification library - runtime library
+ libuv1-dev - asynchronous event notification library - development files
+Changes:
+ libuv1 (1.24.1-1) UNRELEASED; urgency=medium
+ .
+   * New upstream release
+Checksums-Sha1:
+ ee7cf6c435f1592f55ff344d40e3c66f16572f14 282752 libuv1-dbgsym_1.24.1-1_amd64.deb
+ 13283f506a05cb3d331b0f743254c37a3b10e86e 1235880 libuv1-dev_1.24.1-1_amd64.deb
+ 9d97640da0888c4c33419962572e7898920e9085 5886 libuv1_1.24.1-1_amd64.buildinfo
+ 95cd3cf4bb861b403d78ef7c9d219c823a46e262 182252 libuv1_1.24.1-1_amd64.deb
+Checksums-Sha256:
+ 367de576812186dc72edfd8e2e44820efe715737b78ed194d037794884264c16 282752 libuv1-dbgsym_1.24.1-1_amd64.deb
+ 72b9a8af08359ae7aafd8be6b55d274b263f7c61a7dd99a997c912cbf65b04ea 1235880 libuv1-dev_1.24.1-1_amd64.deb
+ 6e045cf81d0269c6e5d6d8b32a4bbb9a0dbe94880d1b531d7d580cc449d112ed 5886 libuv1_1.24.1-1_amd64.buildinfo
+ 858ff2e18a6ce60576115a164ab193a0d806a368f008c4b344c585f1fc9349dd 182252 libuv1_1.24.1-1_amd64.deb
+Files:
+ 96617cabc3a7d85da4ad7eff61bd0b39 282752 debug optional libuv1-dbgsym_1.24.1-1_amd64.deb
+ 7d93d8d2af8a6bdd8610092dda33864b 1235880 libdevel optional libuv1-dev_1.24.1-1_amd64.deb
+ 2f087dc9234d8a127eebffddc3fad393 5886 libs optional libuv1_1.24.1-1_amd64.buildinfo
+ 4bfae0c902ac129f59a80b6699182c1c 182252 libs optional libuv1_1.24.1-1_amd64.deb
